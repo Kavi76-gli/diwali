@@ -1,0 +1,1157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#08091b">
+
+<meta name="description" content="Celebrate Diwali with fresh updates, special announcements, useful ideas, and a welcoming community. Join our Telegram channel today.">
+
+<meta property="og:title" content="Diwali Special | Something Wonderful Awaits">
+<meta property="og:description" content="A brighter celebration starts here. Join our Telegram community for updates, announcements, and fresh ideas.">
+<meta property="og:type" content="website">
+
+
+
+
+<title>Diwali Special | Something Wonderful Awaits</title>
+
+<style>
+:root {
+  --bg: #08091b;
+  --bg2: #11102b;
+  --gold: #ffd76a;
+  --gold2: #ffae42;
+  --cream: #fff8e9;
+  --muted: #b9bad2;
+  --glass: rgba(255,255,255,.055);
+  --border: rgba(255,255,255,.12);
+  --telegram: #35a9e8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 25px;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: var(--bg);
+  color: var(--cream);
+  font-family: Inter, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+}
+
+button, a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.page {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse at 50% -10%, #663b75 0%, transparent 45%),
+    radial-gradient(ellipse at 100% 50%, #29204d55, transparent 45%),
+    linear-gradient(180deg, #0b0b22 0%, #11102b 48%, #08091b 100%);
+}
+
+.ambient {
+  position: absolute;
+  top: 160px;
+  left: 50%;
+  width: 700px;
+  height: 700px;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: #ffb72c08;
+  filter: blur(80px);
+  pointer-events: none;
+}
+
+.stars {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: .6;
+  background-image:
+    radial-gradient(2px 2px at 12% 17%, #fff 50%, transparent 100%),
+    radial-gradient(2px 2px at 83% 13%, #ffd76a 50%, transparent 100%),
+    radial-gradient(2px 2px at 72% 38%, #fff 50%, transparent 100%),
+    radial-gradient(2px 2px at 25% 58%, #ffd76a 50%, transparent 100%),
+    radial-gradient(2px 2px at 92% 73%, #fff 50%, transparent 100%),
+    radial-gradient(2px 2px at 8% 85%, #ffd76a 50%, transparent 100%);
+  animation: twinkle 4s ease-in-out infinite alternate;
+}
+
+@keyframes twinkle {
+  from { opacity: .25; }
+  to { opacity: .75; }
+}
+
+.container {
+  width: min(1160px, 91%);
+  margin: auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* HEADER */
+
+header {
+  padding: 24px 0;
+  border-bottom: 1px solid #ffffff0c;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 1.8px;
+}
+
+.brand-icon {
+  display: grid;
+  place-items: center;
+  width: 43px;
+  height: 43px;
+  border: 1px solid #ffd76a50;
+  border-radius: 14px;
+  background: linear-gradient(145deg, #ffd76a1e, #ffae4208);
+  font-size: 25px;
+}
+
+.brand small {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.nav-label {
+  color: #d5d1e7;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* HERO */
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.05fr .95fr;
+  align-items: center;
+  gap: 65px;
+  padding-top: 85px;
+  padding-bottom: 105px;
+}
+
+.hero-copy {
+  animation: rise .8s ease both;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 11px 15px;
+  border: 1px solid #ffd76a42;
+  border-radius: 50px;
+  background: #ffd76a0b;
+  color: #ffe8a7;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+}
+
+.badge-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--gold);
+  box-shadow: 0 0 12px var(--gold);
+}
+
+h1 {
+  margin: 27px 0 22px;
+  font-size: clamp(50px, 6.4vw, 83px);
+  font-weight: 950;
+  line-height: .99;
+  letter-spacing: -4px;
+}
+
+h1 .gold {
+  display: block;
+  padding: 5px 0;
+  color: var(--gold);
+  background: linear-gradient(100deg, #fff1a8 0%, #ffd76a 38%, #ffab42 85%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 24px #ffbd4030);
+}
+
+.hero-subtitle {
+  margin-bottom: 17px;
+  color: #fff0c5;
+  font-size: clamp(20px, 2.5vw, 28px);
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+.description {
+  max-width: 510px;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.95;
+}
+
+.description strong {
+  color: #fff2d1;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+  margin-top: 30px;
+}
+
+.btn {
+  min-height: 54px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+  padding: 15px 21px;
+  border: 1px solid transparent;
+  border-radius: 14px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 900;
+  transition: transform .25s, box-shadow .25s, border-color .25s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+.btn:focus-visible {
+  outline: 3px solid white;
+  outline-offset: 4px;
+}
+
+.btn-primary {
+  color: #25172b;
+  background: linear-gradient(110deg, #ffe99a, #ffd05b 50%, #ffad42);
+  box-shadow: 0 12px 35px #ffb52c20;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 16px 45px #ffb52c40;
+}
+
+.btn-secondary {
+  color: #fff;
+  border-color: var(--border);
+  background: #ffffff08;
+}
+
+.btn-secondary:hover {
+  border-color: #ffd76a65;
+}
+
+.note {
+  margin-top: 18px;
+  color: #a6a8c4;
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+/* FESTIVE ART */
+
+.art-wrap {
+  position: relative;
+  animation: rise 1s ease both;
+  animation-delay: .12s;
+}
+
+.art-card {
+  min-height: 465px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  isolation: isolate;
+  border: 1px solid #ffffff1a;
+  border-radius: 32px;
+  background:
+    radial-gradient(circle at 50% 47%, #ffb32c20, transparent 38%),
+    radial-gradient(ellipse at 50% 100%, #67305a35, transparent 55%),
+    linear-gradient(145deg, #21183d, #0e112c 75%);
+  box-shadow: 0 30px 100px #0004, inset 0 1px #ffffff08;
+}
+
+.art-card::before {
+  content: "";
+  position: absolute;
+  inset: 15px;
+  border: 1px solid #ffd76a20;
+  border-radius: 23px;
+  pointer-events: none;
+}
+
+.art-card::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 260px;
+  height: 260px;
+  border: 1px solid #ffd76a18;
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 24px #ffd76a08,
+    0 0 0 48px #ffd76a05;
+}
+
+.mandala {
+  position: absolute;
+  top: 48px;
+  color: #ffd76a45;
+  font-size: 44px;
+  animation: rotate 35s linear infinite;
+}
+
+@keyframes rotate {
+  to { transform: rotate(360deg); }
+}
+
+.diya {
+  position: relative;
+  z-index: 2;
+  margin-top: 12px;
+  font-size: clamp(105px, 13vw, 155px);
+  line-height: 1.25;
+  filter: drop-shadow(0 0 28px #ff9e2866);
+  animation: float 3.5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(-2deg); }
+  50% { transform: translateY(-12px) rotate(2deg); }
+}
+
+.art-eyebrow {
+  margin-top: 20px;
+  color: #f2d99b;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 4px;
+}
+
+.art-title {
+  margin-top: 12px;
+  color: var(--gold);
+  font-size: clamp(32px, 4vw, 46px);
+  font-weight: 950;
+  letter-spacing: -1.5px;
+  text-shadow: 0 0 30px #ffb52c30;
+}
+
+.art-subtitle {
+  margin-top: 10px;
+  color: #e1d8e9;
+  font-size: 13px;
+  letter-spacing: .5px;
+}
+
+.spark {
+  position: absolute;
+  color: var(--gold);
+  font-size: 27px;
+  animation: sparkle 2s ease-in-out infinite alternate;
+}
+
+.spark1 { top: 17%; left: 15%; }
+.spark2 { top: 20%; right: 15%; animation-delay: .5s; }
+.spark3 { bottom: 20%; left: 13%; animation-delay: .9s; }
+.spark4 { bottom: 16%; right: 13%; animation-delay: .3s; }
+
+@keyframes sparkle {
+  from { transform: scale(.7) rotate(-15deg); opacity: .4; }
+  to { transform: scale(1.2) rotate(15deg); opacity: 1; }
+}
+
+.floating-tag {
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 15px;
+  border: 1px solid #ffffff20;
+  border-radius: 13px;
+  background: #151630ed;
+  box-shadow: 0 12px 30px #0003;
+  font-size: 11px;
+  font-weight: 800;
+  backdrop-filter: blur(12px);
+}
+
+.tag1 {
+  top: 12%;
+  left: -22px;
+  transform: rotate(-5deg);
+}
+
+.tag2 {
+  right: -18px;
+  bottom: 12%;
+  transform: rotate(4deg);
+}
+
+/* BENEFITS */
+
+.section {
+  padding-bottom: 100px;
+}
+
+.section-heading {
+  max-width: 720px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.section-kicker {
+  margin-bottom: 13px;
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+
+.section-heading h2 {
+  margin-bottom: 15px;
+  font-size: clamp(30px, 4.4vw, 47px);
+  font-weight: 950;
+  line-height: 1.15;
+  letter-spacing: -1.5px;
+}
+
+.section-heading p {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.benefits {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.benefit {
+  min-height: 220px;
+  padding: 25px 21px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: linear-gradient(145deg, #ffffff0b, #ffffff03);
+  transition: transform .25s, border-color .25s, background .25s;
+}
+
+.benefit:hover {
+  transform: translateY(-6px);
+  border-color: #ffd76a55;
+  background: linear-gradient(145deg, #ffd76a0c, #ffffff04);
+}
+
+.benefit-icon {
+  width: 53px;
+  height: 53px;
+  display: grid;
+  place-items: center;
+  border: 1px solid #ffd76a22;
+  border-radius: 16px;
+  background: #ffd76a0c;
+  font-size: 27px;
+}
+
+.benefit h3 {
+  margin: 19px 0 11px;
+  color: #fff2d1;
+  font-size: 16px;
+  font-weight: 850;
+}
+
+.benefit p {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.9;
+}
+
+/* FINAL CTA */
+
+.cta {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 75px;
+  padding: 58px 25px;
+  border: 1px solid #ffd76a40;
+  border-radius: 28px;
+  background:
+    radial-gradient(ellipse at 50% 0%, #ffb52c1b, transparent 65%),
+    linear-gradient(135deg, #ffffff08, #ffffff03);
+  text-align: center;
+}
+
+.cta-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 61px;
+  height: 61px;
+  margin-bottom: 22px;
+  border: 1px solid #ffd76a45;
+  border-radius: 20px;
+  background: #ffd76a12;
+  font-size: 30px;
+}
+
+.cta h2 {
+  margin-bottom: 15px;
+  font-size: clamp(28px, 4vw, 45px);
+  font-weight: 950;
+  letter-spacing: -1px;
+}
+
+.cta p {
+  max-width: 650px;
+  margin: 0 auto;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.cta .btn {
+  margin-top: 27px;
+}
+
+/* FOOTER */
+
+footer {
+  padding: 28px 0 32px;
+  border-top: 1px solid #ffffff12;
+  text-align: center;
+}
+
+.footer-title {
+  margin-bottom: 10px;
+  color: var(--gold);
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.footer-copy {
+  color: #9fa2bd;
+  font-size: 11px;
+  line-height: 2;
+}
+
+.footer-copy strong {
+  color: #ded5e9;
+}
+
+.copyright {
+  margin-top: 17px;
+  color: #8588a6;
+  font-size: 11px;
+}
+
+/* MOBILE */
+
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 55px;
+    padding-top: 60px;
+    padding-bottom: 85px;
+  }
+
+  .hero-copy {
+    text-align: center;
+  }
+
+  .description {
+    margin: auto;
+  }
+
+  .buttons {
+    justify-content: center;
+  }
+
+  .art-wrap {
+    width: min(100%, 580px);
+    margin: auto;
+  }
+
+  .art-card {
+    min-height: 430px;
+  }
+
+  .benefits {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .container {
+    width: 90%;
+  }
+
+  header {
+    padding: 17px 0;
+  }
+
+  .brand {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .brand-icon {
+    width: 39px;
+    height: 39px;
+    font-size: 22px;
+  }
+
+  .nav-label {
+    max-width: 120px;
+    font-size: 10px;
+    text-align: right;
+  }
+
+  .hero {
+    gap: 40px;
+    padding-top: 45px;
+    padding-bottom: 75px;
+  }
+
+  .badge {
+    padding: 10px 12px;
+    font-size: 9px;
+    letter-spacing: 1px;
+  }
+
+  h1 {
+    margin: 23px 0 20px;
+    font-size: clamp(45px, 12vw, 60px);
+    letter-spacing: -2.8px;
+  }
+
+  .hero-subtitle {
+    font-size: 21px;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+  .buttons {
+    gap: 11px;
+    margin-top: 25px;
+  }
+
+  .buttons .btn {
+    width: 100%;
+    min-height: 53px;
+  }
+
+  .note {
+    font-size: 10px;
+  }
+
+  .art-card {
+    min-height: 350px;
+    border-radius: 25px;
+  }
+
+  .art-card::before {
+    inset: 11px;
+    border-radius: 18px;
+  }
+
+  .mandala {
+    top: 35px;
+    font-size: 35px;
+  }
+
+  .diya {
+    font-size: 105px;
+  }
+
+  .art-eyebrow {
+    font-size: 9px;
+    letter-spacing: 3px;
+  }
+
+  .art-title {
+    font-size: 35px;
+  }
+
+  .art-subtitle {
+    font-size: 11px;
+  }
+
+  .floating-tag {
+    padding: 9px 11px;
+    font-size: 9px;
+  }
+
+  .tag1 {
+    top: 10%;
+    left: -5px;
+  }
+
+  .tag2 {
+    right: -5px;
+    bottom: 9%;
+  }
+
+  .spark {
+    font-size: 21px;
+  }
+
+  .section {
+    padding-bottom: 75px;
+  }
+
+  .section-heading {
+    margin-bottom: 28px;
+  }
+
+  .section-heading h2 {
+    font-size: 31px;
+  }
+
+  .section-heading p {
+    font-size: 12px;
+  }
+
+  .benefits {
+    gap: 11px;
+  }
+
+  .benefit {
+    min-height: 205px;
+    padding: 17px 13px;
+    border-radius: 16px;
+  }
+
+  .benefit-icon {
+    width: 43px;
+    height: 43px;
+    border-radius: 13px;
+    font-size: 23px;
+  }
+
+  .benefit h3 {
+    margin: 15px 0 9px;
+    font-size: 13px;
+  }
+
+  .benefit p {
+    font-size: 11px;
+    line-height: 1.8;
+  }
+
+  .cta {
+    margin-bottom: 55px;
+    padding: 38px 18px;
+    border-radius: 23px;
+  }
+
+  .cta h2 {
+    font-size: 29px;
+  }
+
+  .cta p {
+    font-size: 12px;
+  }
+
+  .cta .btn {
+    width: 100%;
+  }
+
+  .footer-copy {
+    font-size: 10px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="page">
+
+  <div class="stars" aria-hidden="true"></div>
+  <div class="ambient" aria-hidden="true"></div>
+
+  <!-- HEADER -->
+
+  <header>
+    <div class="container nav">
+
+      <div class="brand">
+        <span class="brand-icon">🪔</span>
+
+        <span>
+          DIWALI SPECIAL
+          <small>A SEASON OF LIGHT</small>
+        </span>
+      </div>
+
+      <div class="nav-label">
+        ✨ Something Wonderful Awaits
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+
+    <section class="container hero">
+
+      <div class="hero-copy">
+
+        <div class="badge">
+          <span class="badge-dot"></span>
+          A LITTLE FESTIVE MYSTERY
+        </div>
+
+        <h1>
+          This Diwali
+          <span class="gold">Something</span>
+          <span class="gold">Special!</span>
+        </h1>
+
+        <h2 class="hero-subtitle">
+          Be among the first to know.
+        </h2>
+
+        <p class="description">
+          Every celebration brings new possibilities.
+          Join our community for
+          <strong>fresh updates, useful ideas, special
+          announcements, and information worth exploring.</strong>
+          Discover what's new and stay connected with us on Telegram.
+        </p>
+
+        <div class="buttons">
+
+          <a
+            class="btn btn-primary telegram-link"
+            href="https://t.me/+VksgfJNX5Xk5ZGQ1"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Join our Telegram community"
+          >
+            <span aria-hidden="true">➤</span>
+            Join Our Telegram
+            <span aria-hidden="true">→</span>
+          </a>
+
+          <a
+            class="btn btn-secondary"
+            href="#what-you-get"
+          >
+            Discover More
+            <span aria-hidden="true">↓</span>
+          </a>
+
+        </div>
+
+        <p class="note">
+          ✓ Explore updates at your own pace.
+          &nbsp; ✓ Make informed decisions.
+          <br>
+          No guaranteed earnings or profits are promised.
+        </p>
+
+      </div>
+
+      <!-- FESTIVE VISUAL -->
+
+      <div class="art-wrap">
+
+        <div class="art-card">
+
+          <div class="mandala" aria-hidden="true">✺</div>
+
+          <span class="spark spark1" aria-hidden="true">✦</span>
+          <span class="spark spark2" aria-hidden="true">✧</span>
+          <span class="spark spark3" aria-hidden="true">✺</span>
+          <span class="spark spark4" aria-hidden="true">✦</span>
+
+          <div class="floating-tag tag1">
+            🎁 Fresh Updates
+          </div>
+
+          <div class="diya" aria-hidden="true">🪔</div>
+
+          <div class="art-eyebrow">
+            LIGHT • HAPPINESS • TOGETHERNESS
+          </div>
+
+          <div class="art-title">
+            Shubh Diwali
+          </div>
+
+          <div class="art-subtitle">
+            New ideas. Brighter days. Beautiful beginnings.
+          </div>
+
+          <div class="floating-tag tag2">
+            ✨ Stay Connected
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- BENEFITS -->
+
+    <section class="container section" id="what-you-get">
+
+      <div class="section-heading">
+
+        <div class="section-kicker">
+          YOUR COMMUNITY EXPERIENCE
+        </div>
+
+        <h2>
+          A little more light.<br>
+          A little more value.
+        </h2>
+
+        <p>
+          Discover the latest posts, explore useful information,
+          and stay updated with announcements shared by our community.
+        </p>
+
+      </div>
+
+      <div class="benefits">
+
+        <article class="benefit">
+          <div class="benefit-icon" aria-hidden="true">🎉</div>
+          <h3>Festive Updates</h3>
+          <p>
+            Discover seasonal announcements, celebrations,
+            reminders, and special community posts.
+          </p>
+        </article>
+
+        <article class="benefit">
+          <div class="benefit-icon" aria-hidden="true">💡</div>
+          <h3>Fresh Ideas</h3>
+          <p>
+            Explore useful tips, new perspectives, and
+            interesting ideas at your own pace.
+          </p>
+        </article>
+
+        <article class="benefit">
+          <div class="benefit-icon" aria-hidden="true">🔔</div>
+          <h3>Important News</h3>
+          <p>
+            Keep up with channel announcements and
+            updates without missing important posts.
+          </p>
+        </article>
+
+        <article class="benefit">
+          <div class="benefit-icon" aria-hidden="true">🤝</div>
+          <h3>Stay Connected</h3>
+          <p>
+            Join a shared community, discover information,
+            and stay connected with our latest updates.
+          </p>
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- FINAL CALL TO ACTION -->
+
+    <section class="container cta">
+
+      <div class="cta-icon" aria-hidden="true">🪔</div>
+
+      <h2>
+        Your Next Update Is Just a Tap Away.
+      </h2>
+
+      <p>
+        Make this festive season a little more special.
+        Join our Telegram channel to explore updates,
+        announcements, and new ideas in one place.
+      </p>
+
+      <a
+        class="btn btn-primary telegram-link"
+        href="https://t.me/+VksgfJNX5Xk5ZGQ1"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        ➤ Join the Community
+        <span aria-hidden="true">→</span>
+      </a>
+
+      <p class="note">
+        Joining is your choice. Review any offers or opportunities
+        independently before making a decision.
+      </p>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="footer-title">
+        🪔 Wishing You a Bright and Joyful Diwali
+      </div>
+
+      <p class="footer-copy">
+        May your celebrations be filled with happiness,
+        positivity, and beautiful new beginnings.
+        <br>
+        <strong>
+          This page provides informational and community updates.
+        </strong>
+        <br>
+        No earnings or profits are guaranteed.
+      </p>
+
+      <div class="copyright">
+        © <span id="year"></span> Diwali Special.
+        All rights reserved.
+      </div>
+
+    </div>
+
+  </footer>
+
+</div>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1426565446307337');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1426565446307337&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<script>
+"use strict";
+
+/* Automatic copyright year */
+document.getElementById("year").textContent =
+  new Date().getFullYear();
+
+/*
+  Telegram invitation:
+  https://t.me/+VksgfJNX5Xk5ZGQ1
+
+  Update the href on both Telegram buttons if
+  your channel invitation link changes.
+*/
+
+document.querySelectorAll(".telegram-link").forEach(function(link) {
+  link.addEventListener("click", function(event) {
+
+    const destination = link.getAttribute("href") || "";
+
+    if (
+      destination.includes("YOUR_CHANNEL") ||
+      destination.includes("REPLACE_WITH")
+    ) {
+      event.preventDefault();
+
+      alert(
+        "Please add your actual Telegram channel invitation link."
+      );
+    }
+
+  });
+});
+</script>
+
+</body>
+</html>
